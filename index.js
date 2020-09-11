@@ -1,8 +1,10 @@
 function largestSubarraySum(array){
-    let total = 0
+
+    let newArray = []
+    const reducer = (accumulator, currentValue) => accumulator + currentValue;
     array.forEach(element => {
-        total += element
+        if (element > 0){
+        newArray.push(element)}
     });
-    return total
+    return newArray.reduce(reducer)
    }
-   
