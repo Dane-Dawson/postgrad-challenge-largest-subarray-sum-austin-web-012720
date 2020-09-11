@@ -6,5 +6,6 @@ function largestSubarraySum(array){
         if (element > 0){
         newArray.push(element)}
     });
+    // This is a comment just for a commit
     return newArray.reduce(reducer)
    }
