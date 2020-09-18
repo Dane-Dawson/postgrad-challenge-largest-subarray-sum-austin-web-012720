@@ -9,6 +9,7 @@ function largestSubarraySum(array){
         newArray.push(element)}
     });
     // let finalArray = []
+    // why u not wurk?
     // if (newArray > comparativeArray){
     //     finalArray = newArray
     // }else if (comparativeArray > newArray) {
